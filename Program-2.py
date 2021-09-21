@@ -1,6 +1,6 @@
-def display(a):
-    for  i in range(1,a+1):
-        print(2*i-1,end=" ")
+n = int(input("How many digits you want to display?\n"))
+start = 1
+for  i in range(0,n):
+    print(start)
+    start += 2
 
-a=int(input("How many digits you want to display?\n"))
-display(a)
